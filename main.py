@@ -81,3 +81,22 @@ if __name__ == "__main__":
 
   skills.discard("Java")
   print(skills)
+
+  # Returning an element from a set
+
+  skills = { "Problem solving", "Software design", "Python programming" }
+  print(skills)
+
+  skill = skills.pop()
+  print(skill)
+  print(skills)
+
+  """
+  set.clear()
+  """
+
+  skills = { "Problem solving", "Software design", "Python programming" }
+  print(skills)
+
+  skills.clear()
+  print(skills)
