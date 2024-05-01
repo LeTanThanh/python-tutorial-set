@@ -25,3 +25,23 @@ if __name__ == "__main__":
   ratings = {1, 2, 3, 4, 5}
   print(ratings)
   print(len(ratings))
+
+  # Checking if an element is in a set
+
+  """
+  element in set
+  """
+
+  ratings = { 1, 2, 3, 4, 5 }
+  print(ratings)
+
+  rating = 1
+  if rating in ratings:
+    print(f"The set contains {rating}")
+
+  ratings = { 1, 2, 3, 4, 5 }
+  print(ratings)
+
+  rating = 6
+  if rating not in ratings:
+    print(f"The set does not contains {rating}")
