@@ -111,3 +111,17 @@ if __name__ == "__main__":
 
   # skills.add("Django")
   # AttributeError
+
+  # Looping through set elements
+
+  skills = { "Problem solving", "Software design", "Python programming" }
+  print(skills)
+
+  for skill in skills:
+    print(skill)
+
+  for index, skill in enumerate(skills):
+    print(f"{index}.{skill}")
+
+  for index, skill in enumerate(skills, start = 1):
+    print(f"{index}.{skill}")
