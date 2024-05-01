@@ -15,3 +15,13 @@ if __name__ == "__main__":
 
   characters = set("letter")
   print(characters)
+
+  # Getting sizes of a set
+
+  """
+  len(set)
+  """
+
+  ratings = {1, 2, 3, 4, 5}
+  print(ratings)
+  print(len(ratings))
