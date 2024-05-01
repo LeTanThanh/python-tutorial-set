@@ -45,3 +45,15 @@ if __name__ == "__main__":
   rating = 6
   if rating not in ratings:
     print(f"The set does not contains {rating}")
+
+  # Adding elements to a set
+
+  """
+  set.add(element)
+  """
+
+  skills = { "Python programming", "Software design" }
+  print(skills)
+
+  skills.add("Problem solving")
+  print(skills)
