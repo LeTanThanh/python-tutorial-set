@@ -100,3 +100,14 @@ if __name__ == "__main__":
 
   skills.clear()
   print(skills)
+
+  # Frozen a set
+
+  skills = { "Problem solving", "Software design", "Python programming" }
+  print(skills)
+
+  skills = frozenset(skills)
+  print(skills)
+
+  # skills.add("Django")
+  # AttributeError
