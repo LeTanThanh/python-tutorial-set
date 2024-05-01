@@ -57,3 +57,27 @@ if __name__ == "__main__":
 
   skills.add("Problem solving")
   print(skills)
+
+  # Removing an element from a set
+
+  """
+  set.remove(element)
+  """
+
+  skills = { "Python programming", "Software design" }
+  print(skills)
+
+  skills.remove("Software design")
+  print(skills)
+
+  skills = {  "Problem solving", "Software design", "Python programming"  }
+  print(skills)
+
+  # skills.remove("Java")
+  # KeyError
+
+  if "Java" in skills:
+    skills.remove("Java")
+
+  skills.discard("Java")
+  print(skills)
